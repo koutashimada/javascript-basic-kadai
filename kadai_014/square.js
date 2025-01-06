@@ -1,5 +1,5 @@
 const nijyou = (atai)=>{
-    console.log(atai ** 2);
-};
+    return atai ** 2;
+}
 
-nijyou(10);
+console.log(nijyou(10));
